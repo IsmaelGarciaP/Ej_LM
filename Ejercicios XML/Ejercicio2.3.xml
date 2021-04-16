@@ -1,0 +1,16 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE aeropuertos [
+ <!ELEMENT aeropuertos (aeropuerto*)>
+ <!ELEMENTaeropuerto(nombre,cerrado?)>
+ <!ELEMENTnombre(#PCDATA)>
+ <!ELEMENTcerrado(#PCDATA)>
+ ]>
+ <aeropuertos>
+    <aeropuerto>
+        <nombre>Berlín Schönefeld (SFX)</nombre>
+    </aeropuerto>
+    <aeropuerto>
+        <nombre>Berlín Tempelhof (THF)</nombre>
+        <cerrado/>
+    </aeropuerto>
+</aeropuertos>

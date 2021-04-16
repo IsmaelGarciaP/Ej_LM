@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+    <equipo>
+        <nombre> Valencia C.F </nombre>
+        <ciudad> Valencia </ciudad>
+        <entrenador> Entrenador1 </entrenador>
+        <jugadores>
+            <jugador posicion="defensa"> José Luis Gayà </jugador>
+            <jugador posicion="defensa"> Mouctar Diakhaby </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre> Betis </nombre>
+        <ciudad> Sevilla </ciudad>
+        <entrenador> Entrenador1 </entrenador>
+        <jugadores>
+            <jugador posicion="delantero"> Diego Lainez Leyva </jugador>
+            <jugador posicion="portero"> Claudio Andrés Bravo </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

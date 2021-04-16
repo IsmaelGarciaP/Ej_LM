@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Plantilla HTML5</title>
+		<meta name="description" content="HTML5">
+		<meta name="author" content="LM">
+	</head>
+	<body>
+		<h3>Rellena tu CV</h3>
+		<form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+			<label for="nombre">Nombre: </label></br>
+			<input type = "text" id = "nombre" name = "datos personales" value = "" size="20" ></br>
+			<label for="apellidos">Apellidos: </label></br>
+			<input type = "text"  id = "apellidos" name = "datos personales" value = "" size="80"></br>
+			<label for="contrasena">Contraseña:</label></br>
+			<input type = "text" id = "contrasena" name = "datos personales" value = "" size="10"></br>
+			<label for="dni">DNI: </label></br>
+			<input type = "text" id = "dni" name = "datos personales" value = "" size="10"></br>
+			Sexo</br>
+			<input type = "radio" id = "hombre" name = "genero" value = ""><label for="hombre">Hombre</label></br>
+			<input type = "radio" id = "mujer" name = "genero" value = ""><label for="mujer">Mujer</label></br>
+			Incluir mi foto   <input type="file" value="Seleccionar archivo"></br>
+			<input type = "checkbox" name = "boletinNovedades" value = "" checked="checked" >Suscribirme al boletin de novedades</br>
+			<input type = "submit" name = "guardar" value = "Guardar cambios"><input type = "reset" name = "delete" value = "Borrar los datos introducidos">
+		</form>
+	 </body>
+</html>

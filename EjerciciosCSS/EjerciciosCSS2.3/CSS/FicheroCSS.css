@@ -1,0 +1,160 @@
+/*marcador general*/
+*{
+  margin: 0px; padding: 0px;
+}
+
+/*Para que el navegador reconozca los articulos*/
+article, section, aside, nav, header, footer, figure, figcaption, main
+{
+display: block;
+}
+
+/*tipo y tamaño de letra*/
+h1{
+   font: bold 2em arial, sans-serif;
+   padding: 0px 100px;
+   position: relative;
+   top: 5px; left: 0px;
+ }
+ #imgtitulo{
+   position: absolute;
+   top: 40px; left: 30px;
+ }
+
+h2{
+   font: bold 1.5em arial, sans-serif;
+ }
+
+h3{
+  font: bold 1em arial, sans-serif;
+}
+
+/*Centrar todo el cuerpo*/
+body{
+  text-align: center;
+ }
+
+/*cuerpo principal de la pagina*/
+#page{
+  width: 960px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  border: 2px solid #4D4D33;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px grey;
+}
+
+/*titulo de la pagina*/
+header {
+  background: #CCFFFF;
+  border-bottom: 1px solid #8C8C8C;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*menu*/
+nav {
+  background: #FFFFCC;
+  padding: 5px 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #8C8C8C;
+}
+
+nav li {
+   display: inline;
+   list-style: none;
+   padding: 5px;
+   font: bold 14px verdana, sans-serif;
+   cursor:default;
+ }
+
+ nav a {
+   text-decoration:none;
+ }
+
+ nav a:hover {
+   color:grey;
+ }
+
+/*organiza el cuerpo ed la pagina*/
+ content {
+   float: left;
+    width: 660px;
+    margin: 20px;
+ }
+
+aside {
+  float:left;
+  width:200px;
+  margin:20px 0px;
+  padding:20px;
+  background: #FFFFCC;
+  border-left: 260px;
+  border-right: 260px;
+}
+
+/*pie de pagina*/
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+
+/*color de fondo de los bloques*/
+.article {
+  background: #FFFF99;
+  border: 1px solid #8C8C8C;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/*linea visual*/
+.article_header {
+   border-bottom: 1px solid #999999;
+ }
+
+/*aliniazion de texto de los pies de bloque*/
+.article_footer {
+  text-align: right;
+}
+
+/*color de la fecha*/
+.time {
+  color: #999999;
+}
+
+/*bordes de la imagen*/
+.figure {
+  border: 1px double #999999;
+  padding: 5px;
+ }
+
+/*texto de la imagen*/
+.figure .figcaption {
+  font: italic 0.6em verdana, sans-serif;
+}

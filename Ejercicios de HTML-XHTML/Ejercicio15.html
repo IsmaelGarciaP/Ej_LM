@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Plantilla HTML5</title>
+		<meta name="description" content="HTML5">
+		<meta name="author" content="LM">
+	</head>
+	<body>
+		<h3>Rellena tu CV</h3>
+		<fieldset>
+			<legend>Datos básicos</legend>
+			<label for="nombre">Nombre</label> </br>
+			<input type="text"   size="50" maxlength="250" />
+			</br>
+			</br>
+			<label for="descripcion">Descripción</label> </br>
+			<textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+			</br>
+			</br>
+			Foto <input type="file" name="foto" />
+			</br>
+			</br>
+			<input name="contador" id = "contador" type="checkbox" value="si"/> <label for="contador">Añadir contador de visitas</label> </br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Datos económicos</legend>
+			<label for="precio">Precio</label>
+			<input type="text" size="5" id="precio" name="precio" /> &euro; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="impuestos">Impuestos</label>
+
+			<select id="impuestos" >
+		    <option>4%</option>
+		    <option>7%</option>
+		    <option >21%</option>
+		  </select>
+			</br>
+			</br>
+			<label>Promoción</label> </br>
+		  <input type="radio" /> Ninguno </br>
+		  <input type="radio"/> Transporte gratuito </br>
+		  <input type="radio" /> Descuento 5%
+		</fieldset>
+	 </body>
+</html>

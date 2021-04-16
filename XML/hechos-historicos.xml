@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hechosHistoricos>
+    <hechoHistorico>
+        <nombre> IBM da a conocer el PC </nombre>
+        <fecha>
+            <dia> 12 </dia>
+            <mes> 8 </mes>
+            <ano> 1981 </ano>
+        </fecha>
+    </hechoHistorico>
+    <hechoHistorico>
+        <nombre> Se funda Googel</nombre>
+        <fecha>
+            <dia> 4 </dia>
+            <mes> 9 </mes>
+            <ano> 1998 </ano>
+        </fecha>
+    </hechoHistorico>
+    <hechoHistorico>
+        <nombre> Se funda Facebool </nombre>
+        <fecha>
+            <dia> 4 </dia>
+            <mes> 2 </mes>
+            <ano> 2004 </ano>
+        </fecha>
+    </hechoHistorico>
+</hechosHistoricos>
